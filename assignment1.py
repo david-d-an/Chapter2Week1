@@ -143,7 +143,7 @@ def model(X, Y, learning_rate = 0.01, num_iterations = 15000, print_cost = True,
     
     return parameters
 
-def mainfunc():
+def main1():
     #%matplotlib inline
     plt.rcParams['figure.figsize'] = (7.0, 4.0) # set default size of plots
     plt.rcParams['image.interpolation'] = 'nearest'

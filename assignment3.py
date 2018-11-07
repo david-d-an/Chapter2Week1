@@ -219,7 +219,7 @@ def gradient_check_n(parameters, gradients, X, Y, epsilon = 1e-7):
     
     return difference
 
-def main():
+def main3():
     x, theta = 2, 4
     J = forward_propagation(x, theta)
     print ("J = " + str(J))

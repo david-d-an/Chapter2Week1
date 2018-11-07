@@ -248,7 +248,7 @@ def backward_propagation_with_dropout(X, Y, cache, keep_prob):
     
     return gradients
 
-def mainfunc():
+def main2():
     #%matplotlib inline
 
     plt.rcParams['figure.figsize'] = (7.0, 4.0) # set default size of plots
